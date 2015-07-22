@@ -4,7 +4,7 @@
 	Created methods to print out the summary of the ticket purchases
 	This program works successfully to simulate the automatic ticket vending machine
  */
-
+package com.mitbbs;
 import java.util.*;
 
 public class Main {
