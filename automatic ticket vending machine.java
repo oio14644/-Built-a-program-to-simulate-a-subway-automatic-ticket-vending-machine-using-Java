@@ -10,6 +10,7 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
+        
         Scanner in = new Scanner(System.in);
         System.out.print("Please Input the Number of Adults: ");
         int numberOfAdults = in.nextInt();
@@ -39,6 +40,7 @@ public class Main {
             money += in.nextInt();
             System.out.println("Total Inserted Bill: $ " + money);
         }
+        
         // This creates a summary of the ticket purchases
         System.out.println("*******************************");
         System.out.println("Summary of Your Purchases");
@@ -50,6 +52,7 @@ public class Main {
         } else {
             System.out.println("You have Chosen Blue Line");
         }
+        
         System.out.println("Total Ticket Price: $ " + totalTicketPrice);
         System.out.println("Total Inserted Bill: $ " + money);
         System.out.println("Change: $ " + (money - totalTicketPrice));
